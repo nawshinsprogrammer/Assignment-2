@@ -20,7 +20,7 @@ box-sizing: border-box;}
         background-image: linear-gradient(
         to bottom,
           rgba(17, 17, 17, 1) 0%,
-          rgb(119, 119, 119, 0) 20%,
+          rgb(119, 119, 119, 0) 20%,f
           rgba(17, 17, 17, 1) 50%
         );
       
@@ -150,7 +150,8 @@ padding: 5px 20px;}
 /* .another2{padding:  20px 60px;} */
 
 
-.text-image{position: relative;}
+.text-image{position: relative;
+margin-right:95px;}
 .text-btn{position: absolute;
     top: 55%;
     right:190%;
@@ -158,6 +159,32 @@ padding: 5px 20px;}
 .go{position: absolute;
 bottom:55%;
     right: 8%}
+   .Habits{ background-color: #000;
+    background-image: linear-gradient(
+    to bottom,
+      rgba(17, 17, 17, 1) 0%,
+      rgb(119, 119, 119, 0) 20%,f
+      rgba(17, 17, 17, 1) 50%
+    ); }
+    .second-text h1 {color: burlywood;
+    text-align: center;
+padding: 40px 30px;}
+    
+    .second-img{display: flex;
+       
+    gap:3rem;
+padding: 40px 80px;
+margin-left:80px;
+text-align: center;}
+.div1, .div2, .div3,.div4, h3{color: burlywood;}
+.second-img img{padding: 10px 30px;
+    border: none;
+    border-radius:50%;
+}
+
+
+
+
        
        
         
