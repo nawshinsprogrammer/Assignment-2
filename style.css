@@ -167,9 +167,12 @@ bottom:55%;
       rgba(17, 17, 17, 1) 50%
     ); }
     .second-text h1 {color: burlywood;
+        font-size: 36px;
+        font-weight: 900;
     text-align: center;
     
 padding: 40px 30px;}
+
 .second-text p{color: #fff;
 text-align: center;}
     
@@ -179,11 +182,12 @@ text-align: center;}
 padding: 40px 80px;
 margin-left:80px;
 text-align: center;}
-.div1, .div2, .div3,.div4, h3{color: burlywood;}
+.div1, .div2, .div3,.div4, h3{color: rgb(230, 159, 67);}
 .second-img img{padding: 10px 30px;
     border: none;
     border-radius:50%;
 }
+.second-img p{color: #fff;}
 .run-total{background-color: #000;
     background-image: linear-gradient(
     to bottom,
@@ -192,7 +196,7 @@ text-align: center;}
      
       rgba(17, 17, 17, 1) 50%
     );
-padding:50px 75px;
+padding:20px 40px;
 }
 .run{display: flex;
   padding:30px 60px;
@@ -214,22 +218,29 @@ border-radius:20px ;
 .run-text{display: flex;
     flex-direction: column;
     row-gap: 1rem;
-    
+    margin-top: 30px 50px;
     margin-left: 60px;
     padding: 5px 20px;
     
 }
-.run-text h1{color: burlywood;
+.run-text h1{color: rgb(230, 159, 67);
 font-size: 36px;
+font-weight: 900;
 
 }
+.run-text p{color: #fff;}
 .run-image img{width: 360px;
         height:300px;
     border: none;
 border-radius:20px;
+margin-top: 30px;
 margin-left: 190px;
 }
-
+.join{background-color:  rgb(217, 104, 86);
+padding: 8px 30px;
+width: 200px;
+border: none;
+border-radius:20px ;}
 
 
        
