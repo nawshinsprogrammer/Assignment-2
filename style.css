@@ -10,11 +10,12 @@
 *{margin: 0;
 padding: 0;
 box-sizing: border-box;}
-
-    main{max-width: 1440px;
-        
-        margin: 0 auto;
-    }
+*{max-width: 1440px;
+    margin: 0 auto;
+   
+} 
+    
+   
     .header{
         background-color: #000;
         background-image: linear-gradient(
@@ -63,17 +64,23 @@ padding: 30px;
 
  
     }
-    .fun{
-        color: rgba(230, 83, 60, 1);
-        margin: 80px 100px;
-        padding: 30px;
-        padding-bottom: 30px;
-    
+    .fun h1{
+        font-size:36px;
+        font-weight: 900;
     }
-    .fun2{background-color:  rgba(230, 83, 60, 1);
+    .fun{
+        color: rgba(230, 83, 60, 1);}
+        /* margin-:30px 60px;} */
+       
+    
+        
+    
+    
+    .fun2{
+        background-color:  rgba(230, 83, 60, 1);
     color: #fff;
 padding: 8px 30px;
-border: none;
+border:1px solid rgba(255, 255, 255, 0.883);
 border-radius:50px ;}
     .nav-options p{
         color: #fff;
@@ -91,10 +98,13 @@ border-radius:50px ;}
     
     .container nav-bar{
         justify-content: space-between;
+    } .menu{
+        /* display: block; */
     }
     .menu img{ width: 40px;
     height: 40px;} 
-    .total{display: flex;}
+    .total{
+        display: flex;}
      .btn-c{
        background-color:  rgba(230, 83, 60, 1) ;
        color:white ;
@@ -116,10 +126,12 @@ border-radius:50px ;}
     .num{
         color: #fff;
     }
-    .num2{color: #fff;}
+    .num2{
+        color: #fff;}
   
     
-      .text-btn{background: rgba( 255, 255, 255, 0.25 );
+      .text-btn{
+        background: rgba( 255, 255, 255, 0.25 );
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
         
         border-radius: 10px;
@@ -130,7 +142,8 @@ justify-content: center;
 align-items: center;
 width: 140px;
 height: 80px;}
-.go{background: rgba( 255, 255, 255, 0.25 );
+.go{
+    background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     
     border-radius: 10px;
@@ -147,48 +160,60 @@ padding: 5px 20px;}
 
 
 
-/* .another2{padding:  20px 60px;} */
 
 
-.text-image{position: relative;
+
+.text-image{
+    position: relative;
 margin-right:95px;}
-.text-btn{position: absolute;
+.text-btn{
+    position: absolute;
     top: 55%;
     right:190%;
 }
-.go{position: absolute;
+.go{
+    position: absolute;
 bottom:55%;
     right: 8%}
-   .Habits{ background-color: #000;
+   .Habits{
+    /* width: 1440px; */
+     background-color: #000;
     background-image: linear-gradient(
     to bottom,
       rgba(17, 17, 17, 1) 0%,
       rgb(119, 119, 119, 0) 20%,f
       rgba(17, 17, 17, 1) 50%
-    ); }
-    .second-text h1 {color: burlywood;
+    ); 
+}
+    .second-text h1 
+    {color: burlywood;
         font-size: 36px;
         font-weight: 900;
     text-align: center;
     
 padding: 40px 30px;}
 
-.second-text p{color: #fff;
+.second-text p
+{color: #fff;
 text-align: center;}
     
-    .second-img{display: flex;
+    .second-img{
+        display: flex;
        
     gap:3rem;
 padding: 40px 80px;
 margin-left:80px;
 text-align: center;}
 .div1, .div2, .div3,.div4, h3{color: rgb(230, 159, 67);}
-.second-img img{padding: 10px 30px;
+.second-img img{
+    padding: 10px 30px;
     border: none;
     border-radius:50%;
 }
-.second-img p{color: #fff;}
-.run-total{background-color: #000;
+.second-img p{
+    color: #fff;}
+.run-total{
+    background-color: #000;
     background-image: linear-gradient(
     to bottom,
       rgba(17, 17, 17, 1) 0%,
@@ -198,7 +223,8 @@ text-align: center;}
     );
 padding:20px 40px;
 }
-.run{display: flex;
+.run{
+    display: flex;
   padding:30px 60px;
   border: 4px solid #fff;
   background-color:rgb(70, 68, 68);
@@ -215,7 +241,8 @@ border-radius:20px ;
     
     
 
-.run-text{display: flex;
+.run-text{
+    display: flex;
     flex-direction: column;
     row-gap: 1rem;
     margin-top: 30px 50px;
@@ -223,25 +250,35 @@ border-radius:20px ;
     padding: 5px 20px;
     
 }
-.run-text h1{color: rgb(230, 159, 67);
+.run-text h1{
+    color: rgb(230, 159, 67);
 font-size: 36px;
 font-weight: 900;
 
 }
-.run-text p{color: #fff;
+.run-text p{
+    color: #fff;
 font-size: 18px;}
-.run-image img{width: 360px;
+.run-image img{
+    width: 360px;
         height:300px;
     border: none;
 border-radius:20px;
 margin-top: 30px;
 margin-left: 190px;
 }
-.join{background-color:  rgb(217, 104, 86);
+.join{
+    background-color:  rgb(217, 104, 86);
 padding: 8px 30px;
 width: 200px;
 border: none;
 border-radius:20px ;}
+
+
+.calculater{
+    background-color: blue;
+}
+
 .trainer
 {background-color: #000;
     background-image: linear-gradient(
@@ -250,18 +287,19 @@ border-radius:20px ;}
       rgb(119, 119, 119, 0) 20%,f
       rgba(17, 17, 17, 1) 50% );
    ;}
- .border{width:880px;
+ 
    
-    /* border: 4px solid red; */
-}
+   
+
 
 .meet-img{
     margin:20px 90px;
     padding: 30px 70px;
-    margin-left: 50px;
+    margin-left: 60px;
 }
   .border{
     margin-left:15%;
+    margin-right:10%;
     padding:10px 15px;
     background-color: rgb(65, 61, 61);
     border-radius:25px ;
@@ -286,7 +324,7 @@ font-size:20px;
 margin-top: 10px;
 /* gap:18px; */
 
-/* padding: 40px 70px; */
+padding: 40px 70px;
 margin-left:20px ;}
 
 .row-one{
@@ -312,6 +350,55 @@ margin-left:20px ;}
    
     border-radius:25px
 }
+.footer-class{
+ 
+    background-color: blue;
+    /* margin: 10px 20px; */
+ 
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 40px;
+    margin: 10px;
+}
+
+
+   .fun-one{
+    font-style: 36px;
+    font-weight: bolder;
+    color: rgba(230, 83, 60, 1);
+}
+   
+   .fitness p{
+    
+margin-top: 20px;}
+
+.fitness-one p{
+
+    margin-top: 10px;
+
+}
+.fitness-two p{
+
+    margin-top: 10px;
+
+}
+.line{
+    text-align: center;
+    padding: 30px;
+}
+.line-p{
+    margin-top:30px;
+}
+ .calculater{
+    padding: 30px 10px;
+ } 
+
+  
+
 
 
 
