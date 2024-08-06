@@ -275,9 +275,7 @@ border: none;
 border-radius:20px ;}
 
 
-.calculater{
-    background-color: blue;
-}
+
 
 .trainer
 {background-color: #000;
@@ -313,7 +311,7 @@ border-radius:20px ;}
 .meet-man h1{
     color: rgb(230, 159, 67);
 font-size: 36px;
-font-weight: 900;
+font-weight:bolder;
 text-align: center;}
 .row{display:flex;
 }
@@ -396,9 +394,62 @@ margin-top: 20px;}
  .calculater{
     padding: 30px 10px;
  } 
+    .bmi-calculator{
+       text-align: center;
 
-  
+    } 
+    .calculater{
+        background-color: #000;
+    background-image: linear-gradient(
+    to bottom,
+      rgba(17, 17, 17, 1) 0%,
+      rgb(119, 119, 119, 0) 20%,f
+      rgba(17, 17, 17, 1) 50% );}
+      .bmi-calculator p{
+        color: #fff;
+        font-size:16px;
+        text-align: center;
+        margin-top:30px;}
+    .bmi-calculator h1{
+        color:rgb(178, 41, 41);
+        font-size: 36px;
+    font-weight:bolder;}
 
+    
+ .flex{
+    
+    display: flex;
+    border:1 ps solid red;
+    width:400px;
+    margin-right:65%;
+    margin-top: 20px;
+}
+
+    
+    .item{
+        border: 1px solid black;
+        text-align: center;
+        text-color: #fff;
+    }
+    .item h4{
+        color: rgb(215, 43, 43);
+    }
+    .item p{
+        color: #fff;
+    }
+
+
+
+   
+   
+.item{
+    border: 1px solid #292727;
+    width: 200px;
+   
+} 
+.total-calcu{
+    border: 1px solid red;
+}
 
 
 
