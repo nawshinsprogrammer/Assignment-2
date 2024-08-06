@@ -442,14 +442,33 @@ margin-top: 20px;}
 
    
    
-.item{
-    border: 1px solid #292727;
-    width: 200px;
-   
-} 
-.total-calcu{
-    border: 1px solid red;
+.item
+        {border: 1px solid #292727;
+    width:200px;}
+
+    /* flex-direction: column; */
+    /* border: 1px solid red;} */
+
+.total{
+    display: flex;}
+    .total-calcu{
+    margin-right:65%;
+    
+    }
+.Calculate-input p{
+    color: #fff;
 }
+
+   .Calculate-input {
+    margin-left:50px;
+    /* padding: 10px 30px; */
+    width: 500px;
+    margin-bottom: 30%;
+   }
+    
+
+
+
 
 
 
