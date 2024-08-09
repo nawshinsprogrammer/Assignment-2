@@ -269,7 +269,7 @@ h3 {
 }
 
 .second-img img {
-    padding: 10px 30px;
+    padding: 30px 20px;
     border: none;
     border-radius: 50%;
 }
@@ -457,16 +457,30 @@ margin: -20px;}
     border-radius:50%;
 }
 .instrument-img{
-    display: flex;
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
   
 }
 instrument-img h3{
     text-align: center;
 }
+.et-1{
+    padding: 10px 50px;
+    text-align: center;
+}
 
-
-  
+.et-2{
+    padding: 10px 50px;
+    text-align: center;
+} 
     
+.et-3{
+    padding: 10px 50px;
+    text-align: center;
+}
+.et-4{.
+    padding: 10px 50px;
+    text-align: center;}
 
 .footer-class {
 
@@ -704,4 +718,24 @@ margin-top:5px;}
     margin-left: 40%;
     margin-bottom: 10px;
   
+}
+.ff{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.et-btn{
+    padding: 5px 20px;
+    background-color:rgba(180, 155, 11, 0.927)
+    
+}
+.et-3{
+    margin-bottom: 10px;
+}
+.et-2{
+    margin-bottom: 20px;
+}
+.instrument-video{
+    margin-top:45px;
+    display: flex;
+    
 }
