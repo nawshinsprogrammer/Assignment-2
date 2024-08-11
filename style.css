@@ -792,7 +792,11 @@ margin-top:5px;}
     }
     .buttons{
         padding: 5px 10px;
-        margin-left: 5px;
+        margin-left: 40px;
+
+        .btn-c{
+            margin-bottom:15px;
+        }
     }
       .text-content h3{
         font-size:20px;
@@ -812,17 +816,27 @@ margin-top:5px;}
     .second-text h1{
         font-size: 26px;
         font-weight:700;
+        padding: 10px 30px;
+    }
+    .second-text{
+        padding: 10px 30px;
     }
     .second-img{
         flex-direction: column;
        margin-right:40%;
-       width: 400px;
+       width: auto;
+    }
+    .second-img{
+        margin-left:30px
     }
     .second-img p{
         font-size:10px ;
     }
     .second-img h3{
         font-size: 18px;
+    }
+    .second-img{
+        margin-right: 10px;
     }
     .second-text p{
         font-size: 10px;
@@ -836,10 +850,24 @@ margin-top:5px;}
         flex-direction: column;
 
         padding: 10px 30px;
+        margin-right:20px;
+    
        
         
     }
 
+    .run{
+        width:300px;
+       margin-left:10px;
+      padding: 10px 18px;
+    }
+    .run-text{
+        margin-right:10px;
+    }
+
+    .run-text .join{
+        padding: 5px 20px;
+    }
     .run-text h1{
         font-size: 20px;
         margin-top: 30px;
@@ -854,6 +882,11 @@ margin-top:5px;}
         margin-left: 10px;
 
     }
+
+    .run-image {
+        margin-right:40px;
+       
+    }
     
       .run-image img{
         width:250px;
@@ -861,6 +894,10 @@ margin-top:5px;}
 margin-left: 10px;
 padding-bottom:45px;
 border-radius:15px ;}
+
+.bmi-calculator{
+    padding: 20px 15px;
+}
 .bmi-calculator h1{
     font-size: 20px;
 }
@@ -872,6 +909,15 @@ border-radius:15px ;}
     width:400px;
     height: 680px;
 
+}
+
+.total-bmi{
+    width: 380px;
+}
+
+}
+.total-bmi{
+    margin-left: 10px;
 }
 .total-calcu h3{
     font-size: 20px;
@@ -914,7 +960,7 @@ font-size: 18px;
 }
 .input-class select{
     width:90px;
-    height: 20px;
+    height:25px;
     margin-right: 20px;
 }
 .input-button{
@@ -936,6 +982,7 @@ font-size: 18px;
 }
 .border{
     width:300px;
+   
     
     /* margin-right:60%;
     /* margin-right:60px; */
@@ -944,6 +991,7 @@ font-size: 18px;
 
 .meet-img{
     padding: 10px 30px;
+    margin-left: 20px;
     
 }
 .instrument h1{
@@ -955,13 +1003,22 @@ font-size: 18px;
 }
 .instrument-img{
     grid-template-columns:repeat(1,1fr);
-    width: 400px;
+    width:400px;
 }
 .et-4 .et-btn{
     margin-bottom: 30px;
 }
 .instrument-video video{
     width: 200px;
+}
+
+.flex1{
+    width: 400px;
+}
+
+.flex1{
+    width: auto;
+   
 }
  .ff{
     font-size: 20px;
@@ -985,7 +1042,7 @@ font-size: 18px;
     margin-left: 10px;
     margin-top: 20px;
 }
-}
+
      
 
 
