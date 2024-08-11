@@ -374,7 +374,7 @@ h3 {
 }
 
 .border {
-    width:880px;
+    width:700px;
     margin-right:40%;
     margin-left: 10%;
     padding: 20px 10px;   
@@ -691,10 +691,8 @@ instrument-img h3{
     grid-template-columns: repeat(2,1fr);
     margin-right:40px;
  }
-/*     
-  .last{
-    display:flex;
-  } */
+
+
 
 .input-class{
     margin-bottom:10px;
